@@ -1,0 +1,83 @@
+{
+  "eligible_users": 1877,
+  "excluded_users": 15,
+  "excluded_user_ids": [
+    112,
+    188,
+    374,
+    615,
+    1013,
+    1266,
+    1307,
+    1334,
+    1603,
+    1611,
+    1634,
+    1731,
+    1758,
+    1893,
+    2085
+  ],
+  "train_users": 1877,
+  "validation_users": 1877,
+  "test_users": 1877,
+  "train_interactions": 64960,
+  "validation_interactions": 9279,
+  "test_interactions": 18562,
+  "validation_unseen_artist_report": {
+    "unique_heldout_artists": 3960,
+    "unique_unseen_artists": 1211,
+    "unique_unseen_percentage": 30.58080808080808,
+    "heldout_interactions": 9279,
+    "unseen_interactions": 1245,
+    "unseen_interaction_percentage": 13.417394115745232
+  },
+  "test_unseen_artist_report": {
+    "unique_heldout_artists": 6393,
+    "unique_unseen_artists": 2313,
+    "unique_unseen_percentage": 36.18019709056781,
+    "heldout_interactions": 18562,
+    "unseen_interactions": 2446,
+    "unseen_interaction_percentage": 13.177459325503717
+  },
+  "validation_metrics": [
+    {
+      "K": 5,
+      "Precision": 0.04080980287693151,
+      "Recall": 0.04088971763452341,
+      "NDCG": 0.04352749550105686
+    },
+    {
+      "K": 10,
+      "Precision": 0.03153969099627087,
+      "Recall": 0.06378085597584843,
+      "NDCG": 0.055600447271167766
+    },
+    {
+      "K": 20,
+      "Precision": 0.02488012786361203,
+      "Recall": 0.10072811223583686,
+      "NDCG": 0.0714998051187473
+    }
+  ],
+  "test_metrics": [
+    {
+      "K": 5,
+      "Precision": 0.08343100692594585,
+      "Recall": 0.04243473628130003,
+      "NDCG": 0.09323812645003313
+    },
+    {
+      "K": 10,
+      "Precision": 0.06505061267980786,
+      "Recall": 0.06594278272488147,
+      "NDCG": 0.07714149576427416
+    },
+    {
+      "K": 20,
+      "Precision": 0.04901438465636608,
+      "Recall": 0.0995959865032845,
+      "NDCG": 0.09574194893415626
+    }
+  ]
+}

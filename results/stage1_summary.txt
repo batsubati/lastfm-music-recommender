@@ -1,0 +1,18 @@
+Stage 1 dataset summary
+========================
+
+users: 1892
+artists_with_interactions: 17632
+artists_metadata_rows: 17632
+listening_records: 92834
+tags: 11946
+user_taggedartist_records: 186479
+sparsity: 0.9972171848800758
+play_count_min: 1
+play_count_median: 260.0
+play_count_mean: 745.2439300256372
+play_count_max: 352698
+items_per_user_min: 1
+items_per_user_median: 50.0
+items_per_user_mean: 49.06659619450317
+items_per_user_max: 50

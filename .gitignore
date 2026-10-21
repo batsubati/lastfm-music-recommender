@@ -1,0 +1,12 @@
+data/*
+!data/.gitkeep
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
